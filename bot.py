@@ -942,7 +942,7 @@ async def start_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
             + cat_art() + time_footer()
         )
         await update.message.reply_text(
-            text, parse_mode=ParseMode.MARKDOWN,
+            text,
             reply_markup=contact_owner_kb()
         )
         return
@@ -976,7 +976,7 @@ async def start_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
     await update.message.reply_text(
-        text, parse_mode=ParseMode.MARKDOWN, reply_markup=kb
+        text, reply_markup=kb
     )
 
 
