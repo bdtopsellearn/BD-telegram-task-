@@ -32,10 +32,10 @@ from apis import (
 # ============================================================
 # CONFIG
 # ============================================================
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8658601721:AAGXredQKy1587U3QtTrihra9QiMK6tqTkM")
-ADMIN_IDS = [1987818347]
-ADMIN_USERNAME = "ObsidianXcore"
-OWNER_ID = 1987818347
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8698182420:AAEQgdCS6tUZtLvV0AxRNzy3AQKV__PSgkA")
+ADMIN_IDS = [7831629041]
+ADMIN_USERNAME = "CODINGJAMES_X"
+OWNER_ID = 7831629041
 
 NORMAL_THREADS = 40
 NORMAL_DELAY = 0.03
